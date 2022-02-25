@@ -1,0 +1,18 @@
+CREATE DATABASE estacy;
+
+CREATE TABLE Consultant_review (
+    id VARCHAR(20),
+    consultant_MSID VARCHAR(20),
+    vendor VARCHAR(100),
+    location VARCHAR(50),
+    details VARCHAR(2000),
+    vendor VARCHAR(100),
+    feedback VARCHAR(2000),
+    AreasOfImporovemtnt VARCHAR(3000),
+    rating VARCHAR(10),
+    avgrating VARCHAR(10),
+    tech_family VARCHAR(50),
+    last_updated_date TIMESTAMP
+);
+
+ALTER TABLE Consultant_review ADD PRIMARY KEY (consultant_MSID);
