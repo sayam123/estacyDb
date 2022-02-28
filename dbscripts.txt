@@ -5,7 +5,8 @@ CREATE TABLE Consultant_review (
     location VARCHAR(50),
     details VARCHAR(max),
     feedback VARCHAR(max),
-    areas_of_improvement VARCHAR(max),
+    comment VARCHAR(max),
+    status VARCHAR(20),
     rating VARCHAR(10),
     tech_family VARCHAR(50),
     last_updated_date VARCHAR(50)
